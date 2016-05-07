@@ -1,6 +1,6 @@
 let _name = 'Common';
 
-export class Common {
+class Common {
   constructor() {
     console.log(`>>> ${this.getName()} constructor`);
   }
@@ -8,3 +8,5 @@ export class Common {
     return _name;
   }
 }
+
+export { Common };
